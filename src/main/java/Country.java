@@ -112,7 +112,7 @@ public String getName() {
     public class Main {
         public static void main(String[] args) {
             Country Russia = new Country("Russia", 17.1, 145.7, "Moscow", 12.6);
-            //Russia.print();
+            Russia.print();
             Russia.capitalCancel();
           //  Russia.print();
             Country Finland = new Country("Finland", 338000, 5500000, "Helsinki", 655);
